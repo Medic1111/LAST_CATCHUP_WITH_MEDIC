@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f2;
+  font-size: 62.5%;
+}
+body {
+  height: inherit;
+  width: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vh;
+}
+
+.h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: rgb(26, 40, 53);
+}
+
+.p {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: rgba(26, 40, 53, 0.727);
+}
+
+.main {
+  width: 100vw;
+  height: auto;
+}
+
+.h2 {
+  font-size: 3em;
+  padding: 5vh 1.5vw;
+  color: rgba(26, 40, 53, 0.727);
+  text-transform: uppercase;
+}
+
+.img {
+  width: 100%;
+}

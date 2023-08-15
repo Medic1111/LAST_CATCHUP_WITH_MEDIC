@@ -1,0 +1,6 @@
+.li {
+  border: solid 3px black;
+  margin: 5vh 0;
+  height: 5vh;
+  cursor: pointer;
+}
